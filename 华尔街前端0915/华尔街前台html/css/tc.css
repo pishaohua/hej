@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+padding:0;
+border:0;}
+.sign_in{
+	width:280px;
+	height:auto;
+	border-top:3px #c40000 solid;
+	background:#fff;
+	font-family:"微软雅黑","宋体";
+	padding:5px 20px 20px 20px;
+	position:absolute;left:50%;top:20%;margin-left:-140px;display: none;
+}
+.poplogin{z-index:10011;}
+.popsignup{z-index:10021;}
+.poppassword{z-index:10031;}
+.sign_in p{
+	height:33px;
+	width:100%;
+	}
+.sign_in img{
+	float:right;
+	}
+.sign_in table td{
+	padding:5px;
+	height:30px;
+	}
+.sign_in h2{
+	color:#333333;
+	font-size:18px;
+	line-height:30px;
+	font-weight:normal;
+	}
+.sign_in input.username,.sign_in input.userpwd{
+	background:url(../images/xm_bg.jpg);
+	height:30px;
+	width:260px;
+	border:1px #ddd solid ;
+	font-size:16px;
+	font-family:"微软雅黑","宋体";
+	text-indent:10px;
+	}
+.sign_in input.yzm{
+	background:url(../images/xm_bg.jpg);
+	height:30px;
+	width:160px;
+	border:1px #ddd solid ;
+	font-size:16px;
+	font-family:"微软雅黑","宋体";
+	text-indent:10px;
+	}
+table a.zcyzm_btn{
+	display:block;
+	text-align:center;
+	background:#f0f0f0;
+	height:40px;
+	width:85px;
+	line-height:40px;
+	border-radius:4px;
+	color:#333;
+	text-decoration:none;
+	}
+table a.mmyzm_btn{
+	display:block;
+	text-align:center;
+	background:#f0f0f0;
+	height:40px;
+	width:85px;
+	line-height:40px;
+	border-radius:4px;
+	color:#333;
+	text-decoration:none;
+	}
+label{
+	font-family:"宋体";
+	font-size:12px;
+	color:#c40000;
+	line-height:40px;
+}
+table.btn_tab a{
+	font-size:18px;
+	}
+table.btn_tab a.dl{
+	display:block;
+	text-align:center;
+	background:#c40000;
+	height:40px;
+	width:100px;
+	line-height:40px;
+	border-radius:4px;
+	color:#fff;
+	text-decoration:none;
+	margin:0 auto;
+	}
+table.btn_tab a.zc{
+	color:#333;
+	}
+.popupbg{position: absolute;top: 0px;left:0px;right:0px;background-color: #000;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);opacity: 0.5; z-index:10000;}

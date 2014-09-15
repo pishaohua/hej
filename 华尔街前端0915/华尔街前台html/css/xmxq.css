@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+.share{
+	line-height:24px;
+	height:24px;
+	width:240px;
+	position:absolute;
+	top:40px;
+	right:20px;
+	}
+.share img{display:block;float:left; margin:0 4px;}
+.share span{display:block;float:left;}
+#content .top .tjxm .pro{
+	width:100%;
+	height:230px;
+	margin:0;
+	}
+#content .top .pro table{
+	margin-left:10px;
+	margin-bottom:10px;
+	width:850px;
+	}
+#content .top .tjxm{
+	position:relative;
+	height:auto;
+	margin-bottom:10px;
+	width:860px;
+	}
+#content .top{
+	height:auto;
+	}
+a.press_tz{
+	display:block;
+	background:#c40000;
+	width:200px;
+	height:40px;
+	border-radius:4px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	}
+hr{
+	margin:8px 0;}
+.xq_list{
+	clear:both;
+	background:url(../images/xm_bg.jpg)
+}
+.xq_list h1{background-color:#ffffff;}
+.xq_list table{
+	margin-left:10px;
+	margin-bottom:10px;
+	width:99%;
+	}
+.xq_list table td,.xq_list table th{
+	color:#333;
+	font-family:"宋体";
+	text-align:left;
+}
+.xq_list span{
+	color:#333;
+	font-family:"宋体";
+	font-weight:bold;
+	text-indent:10px;
+	line-height:50px;
+	}
+table.data_table td ,table.data_table  th{
+	font-family:"微软雅黑";
+	color:#333;
+	font-size:16px;
+	font-weight:normal;
+	text-align:center;
+	}
+.xq_list .zs_show{
+	width:800px;
+	height:160px;
+	margin:0 auto;
+	}
+.xq_list .zs_show a.jt{
+	display:block;
+	float:left;
+	}
+.xq_list .zs_show ul li{
+	float:left;
+	width:170px;
+	height:150px;
+	margin:0 2px;
+	}
+.xq_list .zs_show ul li img{
+	width:168px;
+	height:125px;
+	border:1px solid #ddd;
+	}
+.xq_list .zs_show ul li p{
+	text-align:center;
+	line-height:24px;
+	}
+.right{
+	float:left;
+	width:330px;
+	height:auto;
+	margin-top:30px;
+}
+#content .top .right .intro {
+	width:330px;
+	height:260px;
+	clear:both;
+	
+	}
+#content .top .right .intro h3{
+	background:#f0f0f0 url(../images/item_bg.jpg) no-repeat;
+	color:#333;
+	text-indent:25px;
+	}
+#content .top .right .intro h4 {
+	width:250px;
+	margin:0 auto;
+}
+#content .top .right .intro h4 img{
+	float:left;
+	line-height:50px;
+	margin-right:20px;
+	}
+#content .top .right .intro h4 span{
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-weight:normal;
+	}
+#content .top .right .intro table{
+	clear:both;
+	margin:10px auto;
+}
+#content .top .right .intro a{
+	display:block;
+	width:250px;
+	height:38px;
+	border-radius:4px;
+	background:url(../images/click_bg.jpg) repeat-x;
+	border:1px solid #ccc;
+	margin:0 auto;
+	text-align:center;
+	line-height:38px;
+	color:#c40000;
+	font-weight:bold;
+	font-size:18px;
+	}
+#content .top .zxxm{
+	clear:both;
+	}
+.right .pic_link{
+	width:330px;
+	}
+.right .pic_link a{
+	display:block;
+	margin:5px 0;
+	}
+.right .pic_link a img{
+	width:330px;
+	height:120px;
+}
